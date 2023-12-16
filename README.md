@@ -11,7 +11,7 @@ Ansible 2.10
 ## Особенности
 Плейбук позволяет отправить логи nginx c лайтхауса с помощью вектора в кликхаус.  
 
-Пример сбора логов:  
+Просмотр databases в кликхаус:  
 ```
 clickhouse-01.ru-central1.internal :) show databases;
 
@@ -27,11 +27,6 @@ Query id: d7288f15-aa94-46ab-b756-2a04f7938f54
 │ nginxdb            │
 │ system             │
 └────────────────────┘
-
-
-
-
-13 rows in set. Elapsed: 0.002 sec.
 
 ```
 # Команда для запуска:  
